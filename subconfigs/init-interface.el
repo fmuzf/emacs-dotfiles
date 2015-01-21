@@ -2,6 +2,9 @@
 ;; because it avoids autoloads of elisp modes)
 (setq initial-major-mode 'text-mode)
 
+;;similarly, disable that pesky *GNU Emacs* buffer
+(setq inhibit-startup-screen t)
+
 ;;empty scratch buffer
 (setq initial-scratch-message nil)
 
