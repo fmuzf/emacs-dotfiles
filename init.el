@@ -15,6 +15,13 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(custom-safe-themes
+   (quote
+    ("75d807376ac43e6ac6ae3892f1f377a4a3ad2eb70b14223b4ed0355e62116814" "806d8c827b214f5f60348114bd27c6dcb5d19047f7ac482ad61e8077a6c5ea60" default)))
+ '(haskell-process-auto-import-loaded-modules t)
+ '(haskell-process-log t)
+ '(haskell-process-suggest-remove-import-lines t)
+ '(haskell-process-type (quote cabal-repl))
  '(scheme-program-name "scheme"))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
@@ -29,6 +36,7 @@
 (require 'init-packages)
 (require 'init-evil)
 (require 'init-misc-plugins)
+;;(require 'init-helm)
 (require 'init-programming)
 (require 'init-colors)
 (require 'init-text-edition)
